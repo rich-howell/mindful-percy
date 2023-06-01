@@ -14,6 +14,19 @@
   }
 }
 
+.btn-primary {
+
+  background-color: #87CEEB;
+  color: #006242;
+  border: none;
+
+}
+
+.btn-primary:hover {
+  background-color: #ABD7EB;
+  color: #006242;
+}
+
 /* Reset CSS */
 html, body {
     height: 100%;
@@ -75,25 +88,9 @@ html, body {
   list-style: none;
 }
 
-/* Left Sidebar */
-.left-sidebar {
-  color: #333333;
-  padding: 20px;
-  width: 25%;
-  float: left;
-}
-
 .crisis {
   background-color: #f2a9a2;
   border-radius: 5px;
-}
-  
-/* Right Sidebar */
-.right-sidebar {
-  color: #333333;
-  padding: 20px;
-  width: 25%;
-  float: right;
 }
   
 .sidebar-section {
